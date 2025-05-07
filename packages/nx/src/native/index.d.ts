@@ -163,6 +163,8 @@ export interface EnvironmentInput {
   env: string
 }
 
+export declare export declare function error(message: string): void
+
 export declare const enum EventType {
   delete = 'delete',
   update = 'update',
@@ -228,6 +230,8 @@ export interface HasherOptions {
 }
 
 export declare export declare function hashFile(file: string): string | null
+
+export declare export declare function info(message: string): void
 
 export interface InputsInput {
   input: string
